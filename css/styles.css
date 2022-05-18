@@ -1,0 +1,102 @@
+.header{
+    color:red;
+    width: auto;
+    font-size: 50px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+    text-decoration-color: aqua;
+    margin: auto;
+    border:aqua;
+    border: 10px;
+    
+    
+}
+body{
+    background-color: black;
+
+}
+
+button.topRow{
+   
+}
+button.bottomRow{
+   
+
+}
+.container1{
+    background-image: URL('./pokedex.png');
+    margin:auto;
+    padding: 0;
+    border:1px solid blue;
+    width: 850px;
+    height: 650px;
+    position: relative;
+    
+
+
+}
+.button-container{
+  
+}
+.header{
+    display:flex;
+  justify-content: center;
+
+}
+ul.scroll-menu {
+    position: relative;
+    /*display: inherit !important;*/
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -moz-overflow-scrolling: touch;
+    -ms-overflow-scrolling: touch;
+    -o-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    margin: 0;
+    border-left: none;
+    border-right: none;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+    border-radius: 0 !important;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
+ul.scroll-menu-2x {
+    max-height: 230px;
+}
+
+.container {
+    background-color: green;
+}
+
+.screen{
+    border:solid green;
+    position: relative;
+    background-color: antiquewhite;
+    height: 10.3em;
+    width: 15.5em;
+    margin-top: 13.1em;
+    margin-left: 6.4em;
+    
+}
+.screenvideo{
+    margin-bottom: 4;
+}
+#pokemon-image{
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    right: 50px;
+    top: 2px;
+}
