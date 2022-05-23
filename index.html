@@ -4,14 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>POKEDEX PROJECT</title>
 
     <link rel="stylesheet" href="css/styles.css" />
+    <link href="http://fonts.cdnfonts.com/css/scientific-calculator-lcd" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">          
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
     <script src="./index.js" defer></script>
   </head>
 
   <body>
     <h1 class="header"><img src="./css/8e638925fcaddcb326e8ac03678d69a8.png"></h1>
+    
     <label for="pokemon-select">Choose a pokemon:</label>
 
     <select name="pokemon" id="pokemon-select">
@@ -19,14 +27,48 @@
     </select>
 
     <div class="container1">
+      
       <div class="screen">
-        <img id='pokemon-image' style="height: 180px;">
+        <img id='pokemon-image' style="height: 180px;" >
         
   
       </div>
-      
+      <!-- <p id="lcd-screen">text goes here...</p> -->
         
       </div>
+      
     </div>
+    <main>
+      <div id="container">
+
+        <!-- A div with card class for the card  -->
+        <div class="card">
+          <img id="card-image"src="img/HddtBOT.png" alt="who's that pokemon?">
+    
+          <!-- A div with card__details class to hold the details in the card  -->
+          <div class="card__details">
+    
+           
+            <span id="type1" class="tag"></span>
+    
+            <span id="type2" class="tag"></span>
+
+            <button class="like__btn" style="float: right;">
+            <span id="icon" style="float: right"><i class="fa-solid fa-heart"></i></span>
+            <span id="count" style="float: right;">0</span>Likes
+            </button>
+    
+            <!-- A div with name class for the name of the card -->
+            <div id="card-title" class="name">Choose a pokemon from the dropdown~</div>
+    
+            <p id="flavor"></p>
+    
+            <button>Read more</button>
+          </div>
+    
+    
+        </div>
+      </div>
+    </main>
   </body>
 </html>
